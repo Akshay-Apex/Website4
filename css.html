@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Font Properties, Styles, and Selectors</title>
+  <style>
+    * {
+      font-size: 30px;
+    }
+
+    b { 
+      font-size: 20px; 
+      font-weight: 900;
+    }
+
+    center {
+      font-size: 40px;
+    }
+    
+    #h {
+      text-align: center;
+      color: rgb(18, 231, 61);
+      background-color: black;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin: 0px;                 
+    }
+
+    html, body {      
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      text-indent: 10px;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: rgb(244, 195, 51);
+    }
+
+    h1 {
+        font-size: 24px;
+        color: #333;
+    }
+
+    .highlight {
+        color: red;
+    }
+              
+    code {
+        background-color: #f5f5f5;
+        padding: 5px;
+        font-family: monospace;
+    }
+
+    #b {
+        background-color: rgb(26, 180, 26);
+        color: white;
+        padding: 5px;
+        border-radius: 10px;    
+        margin-left: 10px;        
+        float: left;  
+        padding-top: 0px;   
+    }
+  </style>
+</head>
+<body>
+  <h1 id="h"><marquee direction="up" behavior="slide"><center>CSS Concepts</center></marquee></h1>  
+
+  <h2>Font Properties</h2>
+
+  <p>CSS provides various properties to control font styles:</p>
+  <ul>
+      <li>font-family: Specifies the font</li>
+      <li>font-size: Sets the font size</li>
+      <li>font-weight: Sets the font weight (e.g., bold)</li>
+      <li>font-style: Sets the font style (e.g., italic)</li>
+      <li>text-decoration: Adds text decorations (e.g., underline)</li>
+      <li>color: Sets the text color</li>
+  </ul>
+
+  <h2>CSS Styles</h2>
+
+  <p>CSS can be applied in different ways:</p>
+
+  <h3>Internal CSS</h3>
+  <p>Styles defined within the <code>&lt;style&gt;</code> tag in the <code>&lt;head&gt;</code> section.</p>
+
+  <h3>Inline CSS</h3>
+  <p>Styles applied directly to elements using the <code>style</code> attribute.</p>
+  <p style="font-weight: bold; text-decoration: underline;">Example of inline CSS</p>
+
+  <h3>External CSS</h3>
+  <p>Styles defined in a separate file (e.g., styles.css) and linked using the <code>&lt;link&gt;</code> tag.</p>
+
+  <h2>CSS Selectors</h2>
+
+  <p>Selectors target specific elements to apply styles:</p>
+  <ul>
+      <li>Element selectors (e.g., <code>p</code>)</li>
+      <li>ID selectors (e.g., <code> #main-header </code>)</li>
+      <li>Class selectors (e.g., <code> .error </code>)</li>
+  </ul>
+
+  <p class="highlight">This text is highlighted using a class selector.</p>
+
+  <div>           
+    <a href="index.html"><button id="b"><b>&lt Previous</b></button></a>              
+  </div>
+</body>
+</html>

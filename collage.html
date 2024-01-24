@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collage</title>
+    <style>
+      * {
+      font-size: 30px;      
+      }
+
+      b { 
+        font-size: 20px; 
+        font-weight: 900;
+      } 
+
+      center {
+        font-size: 40px;
+      }
+
+      #h {
+        text-align: center;
+        color: rgb(18, 231, 61);
+        background-color: black;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin: 0px;                 
+      }
+
+      html, body {
+        background-color: rgb(244, 195, 51);
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        text-indent: 10px;
+      }
+
+      #end {      
+        padding: 1px;
+        background-color: black;
+        color: white;
+      }    
+
+      #b {
+        background-color: rgb(26, 180, 26);
+        color: white;
+        padding: 5px;
+        border-radius: 10px;    
+        margin-left: 10px;
+        float: left;    
+        padding-top: 0px; 
+      }
+    </style>
+</head>
+<body align="center">
+    <div id="end">
+      <h1 id="h"><marquee direction="up" behavior="slide"><center>Collage of Images</center></marquee></h1>      
+    </div>
+    <br><br>
+    
+    <center>
+      <table border bgcolor="white">
+          <tr>
+              <td><img src="Images/image1.jpg" alt="image1" width="100%"></td>
+              <td><img src="Images/image2.jpg" alt="image3=2" width="100%"></td>
+              <td rowspan="2"><img src="Images/image6.jpg" alt="image6" width="100%"></td>
+          </tr>
+          <tr>
+              <td rowspan="2"><img src="Images/image12.jpg" alt="image12" width="100%"></td>
+              <td><img src="Images/image3.jpg" alt="image3" width="100%"></td>
+          </tr>
+          <tr>
+              <td><img src="Images/image4.jpg" alt="image4" width="100%"></td>
+              <td><img src="Images/image5.jpg" alt="image5" width="100%"></td>
+          </tr>
+
+      </table>
+      <br><br><br>
+
+      <table border bgcolor="white">
+          <tr>
+              <td><img src="Images/image7.jpg" alt="image7" width="100%"></td>
+              <td colspan="2"><img src="Images/image8.jpg" alt="image8" width="100%"></td>
+              <td><img src="Images/image9.jpg" alt="image9" width="100%"></td>
+          </tr>
+          <tr>
+              <td colspan="2"><img src="Images/image10.jpg" alt="image10" width="100%"></td>
+              <td colspan="2"><img src="Images/image11.jpg" alt="image11" width="100%"></td>
+          </tr>
+      </table>
+    </center>
+
+    <div style="margin-top: 10px;">           
+      <a href="index.html"><button id="b"><b>&lt Previous</b></button></a>              
+    </div>
+
+</body>
+
+</html>
